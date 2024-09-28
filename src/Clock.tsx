@@ -4,7 +4,7 @@ import './Clock.css';
 
 // Function to fetch and instantiate the WebAssembly module
 const loadWasmModule = async () => {
-    const response = await fetch('time.wasm');
+    const response = await fetch('release.wasm');
     const wasmArrayBuffer = await response.arrayBuffer();
     return await instantiate(wasmArrayBuffer);
 };
