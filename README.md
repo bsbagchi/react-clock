@@ -31,3 +31,11 @@ Make sure you have the following installed:
    ```bash
    git clone https://github.com/yourusername/clock.git
    cd clock
+   npm i
+   npm start
+
+### commands I have used to build
+1. npx create-react-app clock
+2. npm install assemblyscript
+3. npx asinit
+5. npm run asbuild
